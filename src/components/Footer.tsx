@@ -1,10 +1,12 @@
-import React from 'react'
 
 export default function Footer() {
+
+  const date = new Date()
+
   return (
-    <footer>
-        <p>© Kevwe Fadahunsi</p>
-        <p>Design by Kevwe Fadahunsi</p>
+    <footer className="flex flex-col items-center text-xs">
+        <p>© {date.getFullYear()} Kevwe Fadahunsi</p>
+        <p>Built using React, TailwindCSS, Framer Motion and shadcn</p>
     </footer>
   )
 }
