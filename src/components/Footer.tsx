@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <footer className="flex flex-col items-center text-xs">
         <p>© {date.getFullYear()} Kevwe Fadahunsi</p>
-        <p>Built using React, TailwindCSS, Framer Motion and shadcn</p>
+        <p>Built using React, TailwindCSS, Motion and shadcn</p>
     </footer>
   )
 }

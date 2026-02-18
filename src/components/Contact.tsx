@@ -1,5 +1,6 @@
 import { Mail, Link } from "lucide-react";
 import { Card, CardContent, CardTitle } from "./ui/card";
+import type { ContactProps } from "@/lib/types";
 
 const contactInfo = [
     {
@@ -22,12 +23,12 @@ const contactInfo = [
     },
 ]
 
-export default function Contact() {
+export default function Contact({contactRef}: ContactProps) {
   return (
-    <div className="w-11/12">
+    <div className="w-11/12" ref={contactRef}>
         <h2>Get in Touch</h2>
         <Card>
-            <CardTitle>
+            <CardTitle className="text-center">
                 <h3>Contact information</h3>
             </CardTitle>
             <CardContent>

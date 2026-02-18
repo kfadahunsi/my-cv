@@ -15,6 +15,7 @@ export default function Header() {
           <AvatarFallback>KF</AvatarFallback>
         </Avatar>
         <h1 className="ml-3">Kevwe Fadahunsi</h1>
+        {/* <img src="/kfhero.svg" className="h-2/6"/> */}
       </div>
       <div className="flex flex-row items-center">
         <Menu className="mr-3" onClick={handleMenu}/>

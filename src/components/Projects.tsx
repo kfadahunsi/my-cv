@@ -1,3 +1,4 @@
+import type { ProjectProps } from "@/lib/types"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "./ui/card"
 
 const siteInfo = [
@@ -20,9 +21,9 @@ const siteInfo = [
     image: "landscape-placeholder.svg",
   },
 ]
-export default function Projects() {
+export default function Projects({projRef}: ProjectProps) {
   return (
-    <div className="w-11/12 flex flex-col justify-center mb-3">
+    <div className="w-11/12 flex flex-col justify-center mb-10" ref={projRef}>
       <h2>Projects</h2>
       {siteInfo.map((site)=>(
         <Card key={site.title} className="mb-1.5">
@@ -32,7 +33,7 @@ export default function Projects() {
           </CardHeader>
           <CardContent>
             <img className="w-12" src={site.image}/>
-            <a href={site.link}>Visit {site.title}</a>
+            <a className="cursor-pointer" href={site.link}>Visit {site.title}</a>
           </CardContent>
         </Card>
       ))}

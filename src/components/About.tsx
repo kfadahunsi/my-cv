@@ -2,6 +2,8 @@
 export default function About() {
   return (
     <div className='text-xs'>
+        <p>Early-career developer with hands-on experience in Python, data science, and front-end. 
+          Passionate about solving problems and learning by doing</p>
         <h2 className='text-lg'>Education</h2>
         <p><span className='font-semibold'>BEng Chemical Enginering,</span> Loughborough University - July 2016</p>
         <p><span className='font-semibold'>MSc Computer Science,</span> University of Bristol - February 2018</p>

@@ -1,0 +1,19 @@
+<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
+  <rect width="160" height="160" rx="20" fill="#0F172A"></rect>
+  
+  <!-- K vertical -->
+  <line x1="55" y1="40" x2="55" y2="120" stroke="#FFFFFF" stroke-width="8"></line>
+  
+  <!-- K diagonals -->
+  <line x1="55" y1="80" x2="95" y2="40" stroke="#3B82F6" stroke-width="8"></line>
+  <line x1="55" y1="80" x2="95" y2="120" stroke="#3B82F6" stroke-width="8"></line>
+  
+  <!-- F vertical -->
+  <line x1="105" y1="40" x2="105" y2="120" stroke="#FFFFFF" stroke-width="8"></line>
+  
+  <!-- F top -->
+  <line x1="105" y1="40" x2="135" y2="40" stroke="#FFFFFF" stroke-width="8"></line>
+  
+  <!-- F middle -->
+  <line x1="105" y1="75" x2="130" y2="75" stroke="#FFFFFF" stroke-width="8"></line>
+</svg>
